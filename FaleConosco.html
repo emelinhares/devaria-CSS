@@ -23,25 +23,25 @@
             </nav>
         </header>
         <main>
-            <h1>Fale com a Devaria através dessa página.</h1>
-            <h2>Para entrar em contato preencha os campos abaixo e clique em enviar</h2>
-            <form>
-                <p>
+            <h1 class="title text-center">Fale com a Devaria através dessa página.</h1>
+            <h2 class="sub-title text-center">Para entrar em contato preencha os campos abaixo e clique em enviar</h2>
+            <form action="index.html" class="contact-form margin-horizontal-20px">
+                <div>
                     <label>Nome:</label><input type="text" name="Nome" maxlength="70" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <label> E-mail:</label><input type="text" name="E-mail" maxlength="70" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Comentários:</label>
                     <textarea name="Comentario" cols="50" rows="4"></textarea>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Sexo:</label>
-                    <input type="radio" name="sexo" /><label>Feminino</label>
-                    <input type="radio" name="sexo" /><label>Masculino</label>
-                </p>
-                <p>
+                    <input type="radio" name="sexo" /><span>Feminino</span>
+                    <input type="radio" name="sexo" /><span>Masculino</span>
+                </div>
+                <div>
                     <label>Aonde nos conheceu?</label>
                     <select name="Conheceu">
                         <option>Youtube</option>
@@ -49,15 +49,15 @@
                         <option>Amigos</option>
                         <option>Outros</option>
                     </select>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="Novidades" value="Aceite"/>
-                    <label>Aceito receber e-mails de novidades</label>
-                </p>
-                <p>
+                    <span>Aceito receber e-mails de novidades</span>
+                </div>
+                <div>
                     <input type="submit" name="Enviar" value="Enviar"/>
                     <input type="reset" name="Limpar" value="Limpar"/>
-                </p>
+                </div>
             </form>
         </main>
         <footer>
